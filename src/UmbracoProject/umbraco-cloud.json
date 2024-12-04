@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "jonathan cicd test123",
+      "Alias": "jonathan-cicd-test123",
+      "Id": "d59705e2-f7da-4c4b-ba8c-fd626d6075da",
+      "Workspaces": [
+        {
+          "Id": "a927da07-e0c8-4267-8a57-72681f5f4e60",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://jonathan-cicd-test123.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
